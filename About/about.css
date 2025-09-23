@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.About{
+    background:bisque;
+    background-color: bisque;
+    justify-content: space-between;
+    text-align: left;
+    padding: 20px;
+    gap: 30px;
+    width: 50%;
+    align-items: center;    
+
+}
+
+
+.pages {
+  position: absolute;
+  right: 30px;
+  top: 40px;
+}
+.about-text{
+    align-items: center;
+    text-align: justify;
+    text-overflow: clip;
+}
+.nav-bar {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(242, 230, 149, 1);
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  padding: 30px;
+}
+.nav-bar a.logo {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+.nav {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+.nav-link {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+
+#barz{
+    display: none;
+}
+
+.All{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+body{
+    background-color: bisque;
+}
+
+.about-image img{
+    width: 90%;
+    height:70vh;
+    /* max-width: 350px; */
+    border-radius: 10px;
+   
+}
+.about-image{
+    width: 50%;
+}
+/* media query  */
+@media (max-width:768px){
+  
+  .nav-bar {
+    width: 100%;
+    display: flex;
+    height: 50px;
+  }
+
+  .nav-bar .logo b {
+    font-size: 20px;
+    /* padding-bottom: 30px; */
+    
+  }
+  .logo{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+  }
+  .nav-link{
+    display: none;
+  }
+
+  .All{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.about-image img{
+    width: 90%;
+    max-width: 900px;
+    height:300px;
+}
+
+  #barz{
+    display: block;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .About{
+    background:bisque;
+    background-color: bisque;
+    justify-content:center;
+    text-align: left;
+    width: auto;
+    padding: 25px;
+    gap: 0;
+        align-items: center;    
+
+}
+
+  /* .pages{
+        flex-direction: column;
+        width: 50%;
+        gap: 10px;
+        margin-top: 10px;
+    } */
+  
+}
