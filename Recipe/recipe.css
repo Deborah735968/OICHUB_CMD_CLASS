@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 .pages {
   position: absolute;
@@ -17,6 +18,7 @@
   gap: 30px;
   justify-content: space-between;
   padding: 30px;
+
 }
 .nav-bar a.logo {
   text-decoration: none;
@@ -27,11 +29,13 @@
   text-decoration: none;
   list-style-type: none;
   color: black;
+  
 }
 .nav-link {
   display: flex;
   gap: 30px;
   list-style-type: none;
+  
 }
 
 body {
